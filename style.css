@@ -150,6 +150,8 @@ footer {
     }
 
     #youtube {
+        width: 430px;
+        margin: 0 auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -165,6 +167,7 @@ footer {
     }
 
     #maps {
+        width: 350px;
         margin: 0 auto; /* Center map */
         margin-top: 20px; /* Adjust top margin */
         margin-left: auto; /* Center map */
