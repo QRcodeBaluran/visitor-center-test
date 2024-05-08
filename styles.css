@@ -38,7 +38,7 @@ main {
 }
 
 .landing {
-    background-image: url(/assets/landingcopy.jpeg);
+    background-image: url(assets/landingcopy.jpeg);
     background-position: center;
     background-size: cover;
     opacity: 75%;
