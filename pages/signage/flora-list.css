@@ -105,7 +105,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/asem.jpg);
+    background-image: url(/assets/asem.jpg);
     background-size: cover;
 }
 
@@ -114,7 +114,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/landingcopy.jpeg);
+    background-image: url(/assets/landingcopy.jpeg);
     background-size: cover;
 }
 
@@ -123,7 +123,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/mimbo.jpg);
+    background-image: url(/assets/mimbo.jpg);
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/bidara.jpg);
+    background-image: url(/assets/bidara.jpg);
     background-size: cover;
 }
 
@@ -141,7 +141,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/kesambi.jpg);
+    background-image: url(/assets/kesambi.jpg);
     background-size: cover;
 }
 
@@ -150,7 +150,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/ketapang.jpg);
+    background-image: url(/assets/ketapang.jpg);
     background-size: cover;
 }
 
@@ -159,7 +159,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/pilang.jpg);
+    background-image: url(/assets/pilang.jpg);
     background-size: cover;
 }
 
@@ -168,7 +168,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/serut.jpg);
+    background-image: url(/assets/serut.jpg);
     background-size: cover;
 }
 
@@ -177,7 +177,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/trembesi.jpg);
+    background-image: url(/assets/trembesi.jpg);
     background-size: cover;
 }
 
@@ -186,7 +186,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/walikukun.jpg);
+    background-image: url(/assets/walikukun.jpg);
     background-size: cover;
 }
 
@@ -195,7 +195,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/bakau-hitam.jpg);
+    background-image: url(/assets/bakau-hitam.jpg);
     background-size: cover;
 }
 
@@ -204,7 +204,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/bakau-putih.jpg);
+    background-image: url(/assets/bakau-putih.jpg);
     background-size: cover;
 }
 
@@ -213,7 +213,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/gebang.jpg);
+    background-image: url(/assets/gebang.jpg);
     background-size: cover;
 }
 
@@ -222,7 +222,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/krasak.jpg);
+    background-image: url(/assets/krasak.jpg);
     background-size: cover;
 }
 
@@ -231,7 +231,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/kepuh.jpg);
+    background-image: url(/assets/kepuh.jpg);
     background-size: cover;
 }
 
@@ -240,7 +240,7 @@ main {
     width: 300px;
     border-radius: 20px;
     background-color: #374231;
-    background-image: url(assets/pereng.jpg);
+    background-image: url(/assets/pereng.jpg);
     background-size: cover;
 }
 
