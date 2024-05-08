@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.dropdown-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #374231;
+    min-width: 150px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.menu-btn:hover .dropdown {
+    display: block;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#titledesc {
+    font-weight: 300;
+    font-size: medium;
+}
+
+.title {
+    text-align: center;
+}
+
+#logo {
+    width: auto;
+    height: 70px;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 30px;
+}
+
+.imgflora {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+main {
+    border-top: rgba(201, 201, 201, 0.719);
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 60px;
+    display: inline-flex;
+}
+
+.asem-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/asem.jpg);
+    background-size: cover;
+}
+
+.pereng-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/landingcopy.jpeg);
+    background-size: cover;
+}
+
+.mimbo-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/mimbo.jpg);
+    background-size: cover;
+}
+
+.bidara-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/bidara.jpg);
+    background-size: cover;
+}
+
+.kesambi-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/kesambi.jpg);
+    background-size: cover;
+}
+
+.ketapang-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/ketapang.jpg);
+    background-size: cover;
+}
+
+.pilang-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/pilang.jpg);
+    background-size: cover;
+}
+
+.serut-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/serut.jpg);
+    background-size: cover;
+}
+
+.trembesi-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/trembesi.jpg);
+    background-size: cover;
+}
+
+.walikukun-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/walikukun.jpg);
+    background-size: cover;
+}
+
+.bakau-ireng-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/bakau-hitam.jpg);
+    background-size: cover;
+}
+
+.bakau-putih-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/bakau-putih.jpg);
+    background-size: cover;
+}
+
+.gebang-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/gebang.jpg);
+    background-size: cover;
+}
+
+.krasak-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/krasak.jpg);
+    background-size: cover;
+}
+
+.kepuh-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/kepuh.jpg);
+    background-size: cover;
+}
+
+.pereng-card {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #374231;
+    background-image: url(assets/pereng.jpg);
+    background-size: cover;
+}
+
+#youtube {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 500px;
+}
+
+footer {
+    background-color: #171A22;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-content {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: small;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+#maps {
+    display: block;
+    position: relative;
+    margin-left: 630px;
+    margin-top: 0px;
+}
+
+
+/* Media Query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 13px;
+        line-height: 0%;
+    }
+
+    #titledesc {
+        font-size: 7px;
+        line-height: 0%;
+    }
+
+    #logo {
+        width: 40px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+
+    #youtube {
+        width: 390px;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        padding: 50px; /* Reduce padding */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack items vertically */
+        text-align: left; /* Center align content */
+        line-height: 15px;
+    }
+
+    #maps {
+        width: 310px;
+        margin: 0 auto; /* Center map */
+        margin-top: 20px; /* Adjust top margin */
+        margin-left: auto; /* Center map */
+        margin-right: auto; /* Center map */
+    }
+}

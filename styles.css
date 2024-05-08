@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#titledesc {
+    font-weight: 250;
+    font-size: small;
+}
+
+.title {
+    text-align: center;
+}
+
+#logo {
+    width: auto;
+    height: 70px;
+}
+
+main {
+    border-top: rgba(201, 201, 201, 0.719);
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.landing {
+    background-image: url(assets/landingcopy.jpeg);
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+    padding: 150px;
+    color: white;
+}
+
+.landing h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.landing h3 {
+    font-size: small;
+    text-align: center;
+}
+
+.buttons {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px;
+    content: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #171A22;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-content {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: small;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+#maps {
+    display: block;
+    position: relative;
+    margin-left: 630px;
+    margin-top: 0px;
+}
+
+/* Media Query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 13px;
+        line-height: 0%;
+    }
+
+    #titledesc {
+        font-size: 7px;
+        line-height: 0%;
+    }
+
+    #logo {
+        width: 40px;
+        height: auto;
+    }
+
+    .landing {
+        padding: 100px;
+    }
+
+    .landing h2 {
+        font-size: 40px;
+        padding: 0px;
+        display: block;
+        align-items: center;
+    }
+
+    .landing h3 {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .buttons {
+        display: grid;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .buttons a {
+        padding: 10px;
+    }
+
+    svg {
+        height: 60px;
+        padding-right: 40px;
+    }
+
+    footer {
+        padding: 50px; /* Reduce padding */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack items vertically */
+        text-align: left; /* Center align content */
+        line-height: 15px;
+    }
+
+    #maps {
+        width: 310px;
+        margin: 0 auto; /* Center map */
+        margin-top: 20px; /* Adjust top margin */
+        margin-left: auto; /* Center map */
+        margin-right: auto; /* Center map */
+    }
+}

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.dropdown-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #374231;
+    min-width: 150px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.menu-btn:hover .dropdown {
+    display: block;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#titledesc {
+    font-weight: 300;
+    font-size: medium;
+}
+
+.title {
+    text-align: center;
+}
+
+#logo {
+    width: auto;
+    height: 70px;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 30px;
+}
+
+.imgvisitor {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+main {
+    border-top: rgba(201, 201, 201, 0.719);
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+#content-title {
+    font-family: 'chonburi';
+    font-weight: lighter;
+}
+
+.contents {
+    margin: 60px;
+}
+
+.tiket, .theater, .aturan {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 0px 50px 10px 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.texttiket, .texttheater, .textaturan {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#theaterdesc, li {
+    text-align: justify;
+    line-height: 30px;
+}
+
+#youtube {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 500px;
+}
+
+footer {
+    background-color: #171A22;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-content {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: small;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+#maps {
+    display: block;
+    position: relative;
+    margin-left: 630px;
+    margin-top: 0px;
+}
+
+
+/* Media Query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 13px;
+        line-height: 0%;
+    }
+
+    #titledesc {
+        font-size: 7px;
+        line-height: 0%;
+    }
+
+    #logo {
+        width: 40px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .contents {
+        margin: 30px;
+    }
+
+    svg {
+        height: 60px;
+        padding-right: 40px;
+    }
+
+    .tiket, .theater, .aturan {
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .texttiket, .texttheater, .textaturan {
+        padding-left: 0px;
+    }
+
+    #youtube {
+        width: 390px;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        padding: 50px; /* Reduce padding */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack items vertically */
+        text-align: left; /* Center align content */
+        line-height: 15px;
+    }
+
+    #maps {
+        width: 310px;
+        margin: 0 auto; /* Center map */
+        margin-top: 20px; /* Adjust top margin */
+        margin-left: auto; /* Center map */
+        margin-right: auto; /* Center map */
+    }
+}
